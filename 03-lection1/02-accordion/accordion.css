@@ -1,19 +1,15 @@
-.accordion {
-    display: block;
-    padding: 10px;
-    border: solid black 1px;
-    border-radius: 8px;
-    margin: 10px;
-}
-
 .accordion__summary::-webkit-details-marker {
     display: none;
 }
 
-.accordion__item {
+.accordion_item {
+    display: block;
     margin-bottom: 8px;
-    border: solid black 1px;
+    border: solid var(--black) 1px;
     border-radius: 8px;
+    padding: 10px;
+    font-size: 12px;
+    text-align: justify;
 }
 
 .accordion__item:last-child {
