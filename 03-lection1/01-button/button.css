@@ -1,45 +1,32 @@
-.button {
+.btnBlock {
     border: black 2px;
 }
 
-.button__elem {
+.button {
     border-radius: 8px;
     border: 0px;
     height: 48px;
-    width: 189px;
-    margin: 10px;
     color: var(--white);
     cursor: pointer;
-    
+    padding: 15px;
+    font-weight: bold;
 }
 
-.button__elem-primary-enabled {
+.button_primary {
     background-color: var(--blue);
 }
 
-.button__elem-primary-disabled {
-    background-color: var(--blue);
-    opacity: 0.5;
-}
-
-.button__elem-secondary-enabled {
+.button_secondary {
     background-color: var(--purple);
 }
 
-.button__elem-secondary-disabled {
-    background-color: var(--purple);
-    opacity: 0.5;
-}
-
-.button__elem-alternate-enabled {
+.button_alternate {
     border: solid black 1px;
     color: var(--black);
     background-color: var(--white);
 }
 
-.button__elem-alternate-disabled {
-    border: solid black 1px;
-    color: var(--black);
-    background-color: var(--white);
+.button_disabled {
     opacity: 0.5;
+    pointer-events: none;
 }
