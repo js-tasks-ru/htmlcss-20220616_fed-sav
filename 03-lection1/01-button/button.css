@@ -1,13 +1,10 @@
-.btnBlock {
-    border: black 2px;
-}
-
 .button {
     border-radius: 8px;
     border: 0px;
     height: 48px;
     color: var(--white);
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
     padding: 15px;
     font-weight: bold;
 }
@@ -16,8 +13,16 @@
     background-color: var(--blue);
 }
 
+.button_primary:hover {
+    filter: saturate(150%);
+}
+
 .button_secondary {
     background-color: var(--purple);
+}
+
+.button_secondary:hover {
+    filter: saturate(150%);
 }
 
 .button_alternate {
@@ -26,7 +31,11 @@
     background-color: var(--white);
 }
 
-.button_disabled {
+.button_alternate:hover {
+    filter: saturate(150%);
+}
+
+:disabled {
     opacity: 0.5;
     pointer-events: none;
 }
