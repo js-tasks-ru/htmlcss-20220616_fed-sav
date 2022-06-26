@@ -1,0 +1,63 @@
+/* Размеры контейнеров для схематичности */
+
+.skeleton {
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    height: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 24px;
+}
+
+/* Контент вверху */
+
+.skeleton__description {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.skeleton__description_pic {
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+    border-radius: 50%;
+}
+
+.skeleton__description_lines {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.skeleton__description_lines_first {
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+    height: 20px;
+    width: 172px;
+}
+
+.skeleton__description_lines_second {
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+    height: 20px;
+    width: 257px;
+}
+
+/* Контент внизу */
+
+.skeleton__content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.skeleton__content_line1 {
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+    height: 20px;
+    flex-grow: 1;
+}
+.skeleton__content_line2 {
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+    height: 20px;
+    flex-grow: 1;
+}
