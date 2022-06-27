@@ -1,12 +1,16 @@
-.header__container {
+.header {
     background-color: var(--white);
+    padding: 97px 0 77px;
+    max-width: 1110px;
 }
 
 .header__title {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter';
+    font-style: normal;
     font-weight: 500;
     font-size: 50px;
     line-height: 64px;
+    margin: 0 auto;
+    max-width: 670px;
     color: var(--black);
-    text-align: center;
 }
