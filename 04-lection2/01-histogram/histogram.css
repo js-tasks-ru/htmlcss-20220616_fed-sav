@@ -7,7 +7,7 @@
     border-radius: 8px;
 }
 
-/* Инфо по таблице */
+/* Инфо по тексту */
 
 .info {
     display: flex;
@@ -43,7 +43,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    gap: 1px;
+    gap: 0.5px;
     height: 69px;
 }
 
