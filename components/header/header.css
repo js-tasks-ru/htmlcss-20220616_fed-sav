@@ -1,7 +1,8 @@
 .header {
     background-color: var(--white);
-    margin: 0 auto;
-    max-width: 1110px;
+    padding-left: 160px;
+    padding-top: 96px;
+    padding-bottom: 77px;
 }
 
 .header__title {
@@ -10,8 +11,6 @@
     font-weight: 500;
     font-size: 50px;
     line-height: 64px;
-    padding: 97px 0 77px;
-    margin: 0 auto;
-    max-width: 670px;
     color: var(--black);
+    margin: 0;
 }
