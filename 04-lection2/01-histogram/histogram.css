@@ -1,5 +1,4 @@
 .container {
-    margin: 0 auto;
     max-width: 354px;
     max-height: 185px;
     background-color: var(--white);
@@ -9,13 +8,13 @@
 
 /* Инфо по тексту */
 
-.info {
+.container__info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'Inter', sans-serif;
     max-height: 50%;
-    padding: 16px 24px;
+    padding: 16px 24px 0 24px;
 }
 
 .info__orders {
@@ -34,7 +33,7 @@
 
 /* Инфо по гистограмме */
 
-.histogram {
+.container__histogram {
     padding: 0 24px 26px 26px;
 }
 
