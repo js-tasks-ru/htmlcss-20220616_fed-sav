@@ -1,0 +1,43 @@
+.wrapper {
+    background-color: var(--white);
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    height: 185px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Инфо по таблице */
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.data__orders {
+    color: var(--grey-4);
+    float: left;
+}
+
+.data__orders_number {
+    font-size: 20px;
+    color: var(--black);
+}
+
+.data__viewAll {
+    color: var(--blue);
+}
+
+/* Инфо по гистограмме */
+
+.histogram__columns {
+    flex-grow: 1;
+    color: var(--blue);
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+}
