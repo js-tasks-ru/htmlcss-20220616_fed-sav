@@ -1,4 +1,4 @@
-.container {
+.histogram {
     max-width: 354px;
     max-height: 185px;
     background-color: var(--white);
@@ -8,7 +8,7 @@
 
 /* Инфо по тексту */
 
-.container__info {
+.histogram__info {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,23 +17,23 @@
     padding: 16px 24px 0 24px;
 }
 
-.info__orders {
+.histogram__total {
     color: var(--grey-4);
     float: left;
 }
 
-.info__orders_number {
+.histogram__orders {
     font-size: 20px;
     color: var(--black);
 }
 
-.info__viewAll {
+.histogram__viewAll {
     color: var(--blue);
 }
 
 /* Инфо по гистограмме */
 
-.container__histogram {
+.histogram__table {
     padding: 0 24px 26px 26px;
 }
 
