@@ -17,26 +17,26 @@
     padding: 24px;
 }
 
-.description__pic {
+.skeleton__pic {
     width: 64px;
     height: 64px;
     background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
     border-radius: 50%;
 }
 
-.description__lines {
+.skeleton__lines {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.description__first-line {
+.skeleton__first-line {
     background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
     height: 20px;
     width: 172px;
 }
 
-.description__second-line {
+.skeleton__second-line {
     background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
     height: 20px;
     width: 257px;
@@ -51,7 +51,7 @@
     padding: 0 24px 32px 24px;
 }
 
-.paragraph__p {
+.skeleton__p {
     background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
     height: 20px;
     flex-grow: 1;
