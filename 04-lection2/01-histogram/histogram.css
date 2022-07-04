@@ -1,9 +1,8 @@
 .histogram {
-    max-width: 354px;
-    max-height: 185px;
     background-color: var(--white);
     border: 1px solid #ACB5BD;
     border-radius: 8px;
+    padding: 16px 24px 24px 24px;
 }
 
 /* Инфо по тексту */
@@ -13,13 +12,10 @@
     justify-content: space-between;
     align-items: center;
     font-family: 'Inter', sans-serif;
-    max-height: 50%;
-    padding: 16px 24px 0 24px;
 }
 
 .histogram__total {
     color: var(--grey-4);
-    float: left;
 }
 
 .histogram__orders {
@@ -33,21 +29,16 @@
 
 /* Инфо по гистограмме */
 
-.histogram__table {
-    padding: 0 24px 26px 26px;
-}
-
 .histogram__columns {
     flex-grow: 1;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    gap: 0.5px;
-    height: 69px;
+    gap: 1px;
+    height: 50px;
 }
 
 .histogram__cell {
     background-color: var(--blue);
-    width: 9px;
-    height: 60%;
+    flex-basis: 9px;
+    flex-grow: 1;
 }
