@@ -1,4 +1,4 @@
-#modal-open {
+.button {
     width: 189px;
     height: 48px;
     background-color: #4263EB;
@@ -7,7 +7,7 @@
     border: 0px;
 }
 
-.modal-open__text {
+.button__text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -16,12 +16,16 @@
     text-align: center;
 }
 
-#modal {
-    background: #C4C4C4;
+.modal {
+    background: rgba(196, 196, 196, 0.5);
     padding: 40px 40px 40px 47px;
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
-.content {
+.modal__window {
     background: #FFFFFF;
     border-radius: 8px;
     position: relative;
@@ -30,7 +34,7 @@
     justify-content: space-between;
 }
 
-.content__title {
+.modal__title {
     padding: 30px 0 0 40px;
     font-family: 'Inter';
     font-style: normal;
@@ -40,7 +44,7 @@
     color: #334D6E;
 }
 
-.content__text {
+.modal__text {
     font-family: 'Inter';
     font-style: normal;
     padding: 14px 40px 33px 40px;
@@ -50,7 +54,7 @@
     color: var(--grey-4);
 }
 
-#modal-close {
+.modal__close {
     color: #495057;
     position: absolute;
     right: 15px;
