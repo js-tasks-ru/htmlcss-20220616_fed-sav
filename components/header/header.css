@@ -13,3 +13,10 @@
     color: var(--black);
     margin: 0;
 }
+
+.header_template {
+    height: 82px;
+    grid-area: header;
+    background: var(--white);
+    padding: 0;
+}

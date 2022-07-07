@@ -1,0 +1,10 @@
+.page_template {
+    background-color: var(--grey-1);
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-row-gap: 30px;
+    grid-template-areas: 'header'
+                         'main'
+                         'footer';
+}
