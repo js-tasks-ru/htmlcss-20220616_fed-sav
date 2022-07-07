@@ -1,0 +1,44 @@
+.histogram {
+    background-color: var(--white);
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    padding: 16px 24px 24px 24px;
+}
+
+/* Инфо по тексту */
+
+.histogram__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.histogram__total {
+    color: var(--grey-4);
+}
+
+.histogram__orders {
+    font-size: 20px;
+    color: var(--black);
+}
+
+.histogram__viewAll {
+    color: var(--blue);
+}
+
+/* Инфо по гистограмме */
+
+.histogram__columns {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+    height: 50px;
+}
+
+.histogram__cell {
+    background-color: var(--blue);
+    flex-basis: 9px;
+    flex-grow: 1;
+}
