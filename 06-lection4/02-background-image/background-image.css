@@ -1,0 +1,26 @@
+.avatar {
+    width: 100vh;
+    height: 100vw;
+    background-image: url(/06-lection4/02-background-image/public/forest_400.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (min-width: 768px){
+    .avatar {
+        background-image: url(/06-lection4/02-background-image/public/forest_768.jpg);
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .avatar {
+        background-image: url(/06-lection4/02-background-image/public/forest_1024.jpg);
+    }
+}
+
+@media screen and (min-width: 2560px){
+    .avatar {
+        background-image: url(/06-lection4/02-background-image/public/forest_2560.jpg);
+    }
+}
