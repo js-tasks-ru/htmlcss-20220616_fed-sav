@@ -1,9 +1,5 @@
 .tooltip {
     position: relative;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    gap: 6px;
 }
 
 .tooltip__bubble {  
@@ -21,7 +17,9 @@
     width: 129px;
     height: 45px;
     padding-top: 13px;
-    position: relative;
+    position: absolute;
+    left: -52px;
+    bottom: 45px;
 }
 
 .tooltip__trigger:hover ~ .tooltip__bubble{
