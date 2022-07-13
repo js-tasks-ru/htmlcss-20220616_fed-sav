@@ -8,3 +8,17 @@
                          'main'
                          'footer';
 }
+
+.page__footer {
+    height: 166px;
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page__header {
+    height: 82px;
+    grid-area: header;
+    padding: 0;
+}

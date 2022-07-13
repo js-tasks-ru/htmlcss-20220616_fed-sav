@@ -3,34 +3,33 @@
     display: grid;
     grid-template-columns: 1fr 4fr ;
     gap: 56px;
-    padding: 0 8% 0 8%;
 }
 
-.content__sidebar {
+.sidebar {
     display: flex;
     flex-direction: column;
 }
 
-.content__text {
+.sidebar__text {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     color: var(--black);
 }
 
-.content__text_title {
+.sidebar__text_title {
     font-size: 20px;
     line-height: 26px;
     padding-bottom: 14px;
 }
 
-.content__text_name {
+.sidebar__text_name {
     font-size: 14px;
     line-height: 22px;
     padding: 2px 0 2px 0;
 }
 
-.content__text_mainPage {
+.sidebar__text_mainPage {
     padding-top: 28px;
 }
 
