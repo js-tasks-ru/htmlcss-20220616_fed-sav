@@ -5,10 +5,12 @@
     width: 100vw;
     display: flex;
     align-items: center;
+    display: none;
 }
 
 .modal__window {
     margin: 40px 40px 47px 40px;
+    padding: 30px 40px 30px 40px;
     background: #FFFFFF;
     border-radius: 8px;
     position: relative;
@@ -18,7 +20,7 @@
 }
 
 .modal__title {
-    padding: 30px 0 0 40px;
+    padding-bottom: 14px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -30,7 +32,6 @@
 .modal__text {
     font-family: 'Inter';
     font-style: normal;
-    padding: 14px 40px 33px 40px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
