@@ -7,6 +7,8 @@
 @import '/components/container/container.css';
 @import '/components/page/page.css';
 @import '/components/template/template.css';
+@import '/components/sidebar/sidebar.css';
+@import '/components/content/content.css';
 
 :root {
     --white: #ffffff;
