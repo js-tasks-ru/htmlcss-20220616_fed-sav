@@ -13,3 +13,7 @@
     color: var(--black);
     margin: 0;
 }
+
+.header_template {
+    background: var(--white);
+}
